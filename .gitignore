@@ -1,0 +1,33 @@
+# Dependencias / build
+node_modules/
+dist/
+
+# Variables de entorno locales (no subas secrets)
+.env
+.env.local
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Tests / caches locales
+coverage/
+*.tgz
+
+# Archivos temporales de build o preview
+*.local
+
+# Node / web
+node_modules/
+web/dist/
+web/.vite/
+*.log
